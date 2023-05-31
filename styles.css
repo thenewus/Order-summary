@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E8FF;
+    background-position: 0 -450px;
+}
+
+.container {
+    width: 450px;
+    height: 697px;
+    background-color: white;
+    border-radius: 20px;
+}
+.hero {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main {
+    margin: 0 48px;
+}
+
+.order {
+    text-align: center;
+    margin-top: 45px;
+}
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37.04px;
+    color: #1F2E55;
+}
+
+.order p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #717FA6;
+    padding-top: 17px;
+}
+
+.plan {
+    background-color: #F7F9FF;
+    height: 98px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 20px;
+}
+
+.music img {
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+}
+.cost {
+    margin-left: 20px;
+    
+}
+
+.cost p:nth-of-type(1) {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #1F2E55;
+    line-height: 21.17px;
+}
+
+.cost p:nth-of-type(2) {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #717FA6;
+    padding-top: 6px;
+    line-height: 21.17px;
+}
+
+.change {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    margin-left: 94px;
+    line-height: 18.52px;
+    font-size: 14px;
+}
+
+.change a {
+    color: #382AE1;
+}
+
+.button {
+    margin-top: 32px;
+
+}
+
+.approve {
+    height: 50px;
+    background-color: #382AE1;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color: white;
+    line-height: 19.85px;
+    font-size: 15px;
+}
+
+.button p {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    color: #717FA6;
+    line-height: 19.85px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+
+.change a:hover {
+    color: #766CF1;
+}
+
+.approve:hover {
+    background-color: #766CF1;
+}
+.button a {
+    text-decoration: none;
+    color: #717FA6;
+}
+.button a:hover {
+    color: #1F2E55;
+}
+
+@media screen and (max-width:550px) {
+    .container {
+        width: 327px;
+        height: 567px;
+    }
+    .hero {
+        width: 327px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .order {
+        margin-top: 32px;
+    }
+    .main {
+        margin: 0 24px;
+    }
+    .cost {
+        width: 81px;
+        
+    }
+    .plan {
+        height: 81px;
+        display: flex;
+        align-items: center;
+    }
+    .cost p:nth-of-type(1) {
+        font-size: 14px;
+        line-height: 18.52px;
+    }
+    .cost p:nth-of-type(2) {
+        font-size: 14px;
+        line-height: 18.52px;
+        padding-top: 3px;
+    }
+    .music img {
+        margin-left: 16px;
+    }
+    .button, .button p {
+        margin-top: 20px;
+    }
+    .change {
+        margin-left: 50px;
+    }
+}
